@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+
+body {
+  background-color: aliceblue;
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  color: cadetblue;
+  font-weight: 700;
+}
+
+.texto2 {
+  color: blue;
+  font-weight: 100;
+}
+
+.animal {
+  color: rgb(160, 9, 9);
+}
+
+ul {
+  /* list-style: lower-latin; */
+  list-style-image: url("../recursos/image/proximo.png");
+}
+
+ul li {
+  /* margin: ; */
+  background-color: beige;
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid red;
+  /* border-radius: 10px 20px 30px 40px; */
+  border-radius: 50%;
+}
+
+section.section1 {
+  padding: 10px;
+  /* background-color: aqua; */
+  height: 600px;
+  background-image: url("../recursos/image/david-monje-SdeodksvYwE-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+section.section2 {
+  background-color: #0b159c6b;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+section a {
+  text-decoration: none;
+  color: blueviolet;
+  text-transform: lowercase;
+}
+
+section.section2 p {
+  color: rgb(151, 108, 108);
+}
