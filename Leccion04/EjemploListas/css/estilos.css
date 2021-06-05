@@ -1,0 +1,29 @@
+body {
+  background-color: azure;
+}
+
+/* Menu */
+.menu {
+  background: #117a65;
+  width: 200px;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.menu li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.menu li a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+.menu li a:hover {
+  background: #76d7c4;
+  color: #117a65;
+  font-size: 1.2rem;
+  text-decoration: overline;
+}

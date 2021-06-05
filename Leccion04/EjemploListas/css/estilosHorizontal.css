@@ -1,0 +1,34 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.menu {
+  background: #117a65;
+  max-width: 1000px;
+  width: 90%;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin: auto;
+}
+
+.menu li a {
+  color: white;
+  text-align: none;
+  display: block;
+  padding: 20px;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background: #76d7c4;
+  color: #117a65;
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+
+.menu li {
+  display: inline-block;
+  text-align: center;
+}

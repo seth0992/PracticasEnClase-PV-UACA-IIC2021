@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.padre {
+  background-color: #0e6ba8;
+  /* width: 200px; */
+  font-size: 38px;
+  margin: 20px;
+  color: white;
+  overflow: hidden;
+}
+
+.caja {
+  background-color: coral;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  font-size: 4rem;
+}
+
+.caja1 {
+  float: left;
+}
+
+.caja2 {
+  float: left;
+}
+/* .clearfloat {
+  clear: both;
+} */

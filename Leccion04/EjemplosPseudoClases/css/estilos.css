@@ -1,0 +1,57 @@
+body {
+  background-color: aliceblue;
+}
+p:first-child::first-line {
+  background-color: aquamarine;
+}
+
+p::first-letter {
+  font-size: 2rem;
+  color: blue;
+}
+p {
+  line-height: 2rem;
+}
+
+*::selection {
+  background-color: tomato;
+  color: white;
+}
+
+.caja {
+  background-color: blueviolet;
+  height: 150px;
+  width: 150px;
+  position: relative;
+}
+
+.caja::before {
+  content: "Antes de la caja";
+  display: block;
+  background-color: antiquewhite;
+  color: blue;
+}
+.caja::after {
+  content: " ";
+  /* ctrl } */
+  width: 50px;
+  height: 50px;
+  background-color: brown;
+  display: block;
+  position: relative;
+  left: 100px;
+  top: 90px;
+}
+
+a:hover {
+  background-color: yellowgreen;
+  padding: 2rem;
+}
+a:active {
+  background-color: black;
+  color: white;
+}
+
+a:visited {
+  color: darkgoldenrod;
+}
