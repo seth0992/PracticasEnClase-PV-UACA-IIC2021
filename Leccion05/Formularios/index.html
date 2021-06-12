@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <form
+      action="mailto:m@gmial.com"
+      name="form1"
+      method="POST"
+      enctype="text/plain"
+    >
+      <label for="nombreC">Nombre Completo</label>
+      <input type="text" id="nombreC" name="nombreC" placeholder="Jeremy" />
+      <br /><br />
+      <label for="contrasena">Contraseña</label>
+      <input
+        type="password"
+        id="contrasena"
+        name="contrasena"
+        placeholder="****"
+      />
+      <br /><br />
+      <label for="email">Correo electrónico</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="j@gmail.com"
+        required
+      />
+      <br /><br />
+      <label for="direccion">Dirección</label>
+      <input type="text" id="direccion" name="direccion" />
+      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+        <tr>
+          <td>
+            Edad:
+            <br />
+            <input type="radio" name="edad" id="edad" value="120" /> 1 - 20
+            <br />
+            <input type="radio" name="edad" id="edad" value="2140" /> 21 - 40
+            <br />
+            <input type="radio" name="edad" id="edad" value="4160" /> 41 - 60
+            <br />
+            <input type="radio" name="edad" id="edad" value="61100" /> 61 - 100
+          </td>
+        </tr>
+        <tr>
+          <td>
+            cual es tu animal favorito:
+            <br />
+            <input type="checkbox" name="animal" /> Perro <br />
+            <br />
+            <input type="checkbox" name="animal" /> Gato <br />
+            <br />
+            <input type="checkbox" name="animal" /> Otros <br />
+          </td>
+        </tr>
+      </table>
+      <label for="opinion">Escriba su opinion</label>
+      <textarea name="opinion" id="opinion" cols="20" rows="5"></textarea>
+      <br /><br />
+      <label for="frecuencia">Cuanto navegas por internet?</label>
+      <select name="frecuencia" id="frecuencia">
+        <option value="1">2 horas al dia</option>
+        <option value="2">4 horas al dia</option>
+        <option value="3">10 horas a la semana</option>
+      </select>
+      <br /><br />
+
+      <label for="FechaNac">Fecha de Nacimiento</label>
+      <input type="date" name="FechaNac" id="FechaNac" />
+      <br /><br />
+
+      <label for="pretencioSalaria">Cuanto desea ganar</label>
+      <input type="range" list="salarios" />
+
+      <datalist id="salarios">
+        <option value="0" label="0%"></option>
+        <option value="10" label="10%"></option>
+        <option value="15" label="0%"></option>
+      </datalist>
+
+      <br /><br />
+      <label for="ColorFavorito">Cual es tu color favorito</label>
+      <input type="color" name="ColorFavorito" id="ColorFavorito" />
+
+      <br /><br />
+      <label for="edad">Edad</label>
+      <input type="number" min="10" max="100" />
+
+      <br /><br />
+
+      <input type="submit" value="Enviar formulario" />
+      <input type="reset" value="Borrar formulario" />
+    </form>
+  </body>
+</html>

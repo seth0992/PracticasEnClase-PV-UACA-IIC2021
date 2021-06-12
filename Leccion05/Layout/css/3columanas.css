@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#contenedor {
+  max-width: 1200px;
+  margin: auto;
+  background-color: antiquewhite;
+}
+#cabecera {
+  background-color: aqua;
+  height: 50px;
+}
+#menu {
+  float: left;
+  width: 20%;
+  background-color: burlywood;
+  height: 150px;
+}
+
+#contenido {
+  float: left;
+  width: 80%;
+  background-color: aquamarine;
+  height: 350px;
+}
+
+#principal {
+  width: 70%;
+  background-color: cadetblue;
+  height: 200px;
+  float: left;
+}
+#secundario {
+  width: 30%;
+  background-color: azure;
+  height: 150px;
+  float: left;
+}
+
+#pie {
+  background-color: blueviolet;
+  clear: both;
+  height: 50px;
+}
