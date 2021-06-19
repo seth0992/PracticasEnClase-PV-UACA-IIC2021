@@ -1,0 +1,61 @@
+.contenedor {
+  max-width: 1000px;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+}
+h2 {
+  flex: 0 1 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  color: darkblue;
+}
+
+h3 {
+  margin: 0;
+  font-weight: 700;
+}
+
+.campeon {
+  background-color: aliceblue;
+  margin-bottom: 0.8rem;
+  text-transform: uppercase;
+  padding: 0.5rem;
+}
+
+.campeon h3 {
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+}
+
+.campeon span {
+  color: #05b853;
+}
+
+/* Media query -> puntos de interrupción */
+
+@media screen and (min-width: 400px) {
+  .campeon {
+    flex: 0 1 100%;
+  }
+}
+@media screen and (min-width: 480px) {
+  .contenedorPrincipal {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .campeon {
+    flex: 0 1 46%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .campeon {
+    flex: 0 1 30%;
+  }
+}
