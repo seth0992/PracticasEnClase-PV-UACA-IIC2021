@@ -1,0 +1,44 @@
+.elemento1 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  animation-name: colores;
+  animation-duration: 10s;
+  animation-direction: normal;
+  animation-timing-function: ease-in-out;
+  position: relative;
+}
+
+@keyframes colores {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    background-color: cadetblue;
+    left: 300px;
+    top: 0px;
+    transition: rotate3d(1, 2, -1, 192deg);
+  }
+
+  /* 50% {
+    background-color: black;
+    left: 300px;
+    top: 200px;
+    transform: skew(30deg, 20deg);
+  } */
+
+  75% {
+    background-color: coral;
+    left: 0;
+    top: 200px;
+    /* transform: scale(2, 0.5); */
+  }
+
+  100% {
+    left: 0;
+    top: 0;
+  }
+}

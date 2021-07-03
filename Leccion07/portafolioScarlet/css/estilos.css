@@ -229,3 +229,55 @@ header {
 .contacto .formulario .boton:hover {
   background-color: #34759b;
 }
+
+/* Footer */
+footer {
+  background-color: #1e2c39;
+  padding: 60px 0;
+}
+
+footer .contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+footer .contenedor a {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 2rem;
+  display: block;
+  border-radius: 3px;
+  padding: 15px 0;
+  text-align: center;
+  width: 100px;
+
+  transition: background 2s, width 2s;
+  transition-timing-function: ease;
+}
+
+footer .contenedor .twitter:hover {
+  background-color: #6799ed;
+  width: 200px;
+}
+
+footer .contenedor .facebook:hover {
+  background-color: #3b5998;
+  width: 200px;
+}
+
+footer .contenedor .youtube:hover {
+  background-color: #f60002;
+  width: 200px;
+}
+
+footer .contenedor .instagram:hover {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  width: 200px;
+}
